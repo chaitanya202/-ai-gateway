@@ -1,0 +1,32 @@
+# Build artifacts and binaries
+ai_gateway
+mock_vllm
+ai_stress
+spsc_test
+negative_tests
+capacity_benchmark
+failure_cases_test
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+
+# Build directories
+build/
+bin/
+out/
+
+# Logs and scratch
+*.log
+scratch/
+__pycache__/
+*.pyc
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
